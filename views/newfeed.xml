@@ -1,0 +1,7 @@
+<Alloy>
+	<NavigationWindow id="navwin" platform="ios" modal="true">
+        <Window id="win" title="Modal Window" backgroundColor="red">
+            <!-- modal window content here -->
+        </Window>
+    </NavigationWindow>
+</Alloy>

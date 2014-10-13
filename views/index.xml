@@ -1,0 +1,38 @@
+<Alloy>
+	<TabGroup>
+		<Tab title="Tab 1" icon="KS_nav_ui.png">
+			<Window backgroundColor="blue" onClick="showDialog">
+		        <Label id="label">I am a blue window!</Label>
+		        <AlertDialog id="dialog" onClick="doClick" title="Ajouter un flux" cancel="1">
+					<View class="formModal">
+						<Label top="10" left="5" color="#FFF" font="{fontSize:8}">URL :</Label>
+						<TextField id="addFeedInput" class="inputModal" width="300"></TextField>
+						<Label top="10" left="5" color="#FFF" font="{fontSize:8}">Catégorie :</Label>
+						<Picker id="picker" class="inputModal" selectionIndicator="true" useSpinner="false">
+		            
+		            		<!-- Picker shorthand notation -->
+				            <Column id="column2">
+				                <Row title="red"/>
+				                <Row title="green"/>
+				                <Row title="blue"/>
+				                <Row title="orange"/>
+				            </Column>
+				        </Picker>
+
+		            </View>
+		            <ButtonNames>
+		            	<ButtonName id="submitAddFeed">Ajouter</ButtonName>
+		            	<ButtonName>Annuler</ButtonName>	
+	            	</ButtonNames>
+		        </AlertDialog>
+		        
+		        
+		    </Window>
+		</Tab>
+		<Tab title="Tab 2" icon="KS_nav_views.png">
+			<Window title="Tab 2">
+				<Label>I am Window 2</Label>
+			</Window>
+		</Tab>
+	</TabGroup>
+</Alloy>
