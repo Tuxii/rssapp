@@ -1,0 +1,8 @@
+<Alloy>
+	<Window id="displayFeed" title="test">
+		<View class="container">
+			<TableView id="table">
+        	</TableView>
+		</View>
+	</Window>
+</Alloy>

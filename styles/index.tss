@@ -15,6 +15,7 @@
 
 "#addFeedInput": {
 	hintText: "Adresse du flux RSS",
+	value: "http://www.commitstrip.com/fr/feed/",
 	keyboardType: Titanium.UI.KEYBOARD_DEFAULT
 }
 
@@ -23,5 +24,5 @@
 }
 
 ".inputModal": {
-	width: Ti.UI.FILL
+	width: Ti.UI.FILL,
 }

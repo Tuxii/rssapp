@@ -1,0 +1,7 @@
+<Alloy>
+	<Window>
+		<View class="container">
+			<Label id="desc"></Label>
+		</View>
+	</Window>
+</Alloy>

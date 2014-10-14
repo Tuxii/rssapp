@@ -1,11 +1,18 @@
+var rss = require('rss');
+
 function showDialog(){
-    $.dialog.show();
+     $.dialog.show();
 };
 
 function doClick(e){
 	
+	
 		if(e.index == 0){ // clicked add feed
-			alert($.addFeedInput.value)
+			var url = $.addFeedInput.value;
+			rss.parseFeed(url, function(data){
+				Alloy.createController('displayFeed', data).getView().open();
+			});
+			
 		}
 
 };
