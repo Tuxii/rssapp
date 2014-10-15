@@ -23,7 +23,7 @@ for(var i=0, j=args.data.length; i<j; i++){
 	tableData.push(row);
 	
 	row.addEventListener('click', function(e){
-		Alloy.createController('displayFeedDetails', e).getView().open();
+		Alloy.createController('displayFeedDetails', this).getView().open();
 	});
 }
 

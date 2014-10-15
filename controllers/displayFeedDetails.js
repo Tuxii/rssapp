@@ -1,5 +1,5 @@
 var args = arguments[0] || {};
 
-alert(args.desc);
+alert(args.content);
 $.desc.text = args.text;
 Ti.API.info(JSON.stringify(args));
