@@ -1,7 +1,7 @@
 <Alloy>
-	<Window>
-		<View>
-			<Button onclick="redirectToArticle">Voir l'article en eniter</Button>
+	<Window backgroundColor="white">
+		<View layout="vertical">
+			<Button width="Ti.UI.FILL" onClick="redirectToArticle">Voir l'article en entier</Button>
 			<WebView id="feedDetails"></WebView>
 		</View>
 	</Window>
