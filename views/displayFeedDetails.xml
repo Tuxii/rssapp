@@ -1,6 +1,7 @@
 <Alloy>
 	<Window>
 		<View>
+			<Button onclick="redirectToArticle">Voir l'article en eniter</Button>
 			<WebView id="feedDetails"></WebView>
 		</View>
 	</Window>

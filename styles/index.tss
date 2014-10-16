@@ -1,5 +1,5 @@
 "Window": {
-	backgroundColor: "#fff"
+
 }
 
 "Label": {
@@ -26,3 +26,9 @@
 ".inputModal": {
 	width: Ti.UI.FILL,
 }
+
+"MenuItem": {
+	showAsAction: Ti.Android.SHOW_AS_ACTION_ALWAYS
+}
+
+

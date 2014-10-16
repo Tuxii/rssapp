@@ -1,5 +1,5 @@
 <Alloy>
-	<Window id="displayFeed" title="test">
+	<Window id="displayFeed">
 		<View class="container">
 			<TableView id="table">
         	</TableView>
