@@ -27,8 +27,10 @@
             	<ButtonName id="submitAddFeed">Ajouter</ButtonName>
             	<ButtonName>Annuler</ButtonName>	
         	</ButtonNames>
+        	
         </AlertDialog>
-        <ActivityIndicator id="activityIndicator" message="Loading..."/>
+  
+        <ActivityIndicator id="loading" message="Chargement..."/>
         <TableView id="feedsList"></TableView>
         
     </Window>
