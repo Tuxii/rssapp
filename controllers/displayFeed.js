@@ -15,6 +15,7 @@ for(var i=0, j=args.data.length; i<j; i++){
 		text: args.data[i].title,
 		left:0
 	});
+
 	row.description = args.data[i].description;
 	
 	row.content = args.data[i].content;
@@ -24,6 +25,8 @@ for(var i=0, j=args.data.length; i<j; i++){
 	tableData.push(row);
 	
 	row.addEventListener('click', function(e){
+		Ti.API.info("e =>" + JSON.stringify(e));
+		Ti.API.info("edata =>" + JSON.stringify(e.rowData));
 		Alloy.createController('displayFeedDetails', this).getView().open();
 	});
 }

@@ -15,7 +15,7 @@
 
 "#addFeedInput": {
 	hintText: "Adresse du flux RSS",
-	value: "http://",
+	value: "http://www.lemonde.fr/rss/une.xml",
 	keyboardType: Titanium.UI.KEYBOARD_DEFAULT
 }
 

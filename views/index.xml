@@ -4,7 +4,7 @@
 		
 		<Menu id="menu" platform="android">
 		    <!-- Cannot specify node text.  Use attributes only. -->
-		    <MenuItem id="saveitem" title="ajouter" icon="ic_action_new.png" width="50" height="50" onClick="showDialog" />
+		    <MenuItem id="saveitem" title="ajouter" icon="plus.png" width="50" height="50" onClick="showDialog" />
 		</Menu>
         <AlertDialog id="dialog" onClick="doClick" title="Ajouter un flux" cancel="1">
 			<View class="formModal">
